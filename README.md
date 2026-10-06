@@ -176,3 +176,8 @@ The repository will evolve incrementally as the 12 streams, cross-stream archite
 
 **SuccessLabs Academy**  
 *Architecting Experiences for a Better World*
+
+
+## Learning & Interview Architecture
+
+The master learning layer includes the [BAISI PAHACHA HR Tech Interview Preparation framework](learning/interview-preparation/README.md), which provides the 12-stream × 22-theme assessment spine and duplicate-control model. Detailed stream content remains in the owning domain repositories.
