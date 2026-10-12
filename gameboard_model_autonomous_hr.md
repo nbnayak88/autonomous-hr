@@ -178,7 +178,64 @@ These stages are a proposed curriculum structure; they should not replace the ex
 
 ---
 
-## 4. The Autonomous HR Gameboard — Example
+## 4. The Eight Learning Formats for Autonomous HR
+
+The screenshot's eight-format model distinguishes learning experiences by the learner's question, purpose, depth, duration, interaction, output, best-fit audience, and what the format is not. Apply those distinctions to HR, SAP SuccessFactors, HR transformation, and HR architecture. The durations below are indicative planning ranges adapted from the reference model.
+
+| Format | Student question | Primary purpose and depth | Duration / cadence | Interaction | Autonomous HR example and student output | Best for | What it is not |
+|---|---|---|---|---|---|---|---|
+| **1. Webinar** | “What is this HR topic and why does it matter?” | Awareness, orientation, quick understanding; introductory to intermediate | 30–60 minutes, usually one session | Low to moderate: Q&A, polls, chat | **HR Transformation Friction Finder:** introduce a fictional hire-to-retire problem, such as repeated onboarding delays or inconsistent employee data. Learners vote on likely friction points and leave with a problem-framing card and next-step resources. | Beginners, stakeholders, or mixed audiences exploring a topic | Not hands-on skill mastery, a solution build, or a multi-week implementation sprint |
+| **2. MasterClass** | “How does an expert think and perform in this area?” | Expert-led learning on advanced patterns, frameworks, and decisions | 2–6 hours or a short expert series; for example, 2-hour sessions | Moderate to high: expert explanation, worked examples, critique, Q&A | **HR Solution Architecture MasterClass:** analyse a multinational SuccessFactors Employee Central design, including data ownership, effective dating, integrations, security, local requirements, and trade-offs. Output: an architecture decision checklist and refined understanding of design choices. | Learners with prior knowledge who want expert-level clarity | Not a beginner overview or a long implementation journey |
+| **3. Workshop** | “How do I practise this one specific skill?” | Hands-on practice for one focused skill, tool, concept, or process | 1–3 hours, usually one session | High: guided exercises, practice, facilitator feedback | **Employee Central Data Quality Workshop:** use fictional employee records to identify duplicate, missing, inconsistent, or invalid data; define validation rules and propose remediation. Output: completed data-quality exercise, rule set, and exception log. | Learners who need to apply one specific concept immediately | Not broad awareness or multi-week mastery |
+| **4. Bootcamp** | “How do I build complete capability step by step?” | Structured skill development across connected concepts, modules, or milestones; intermediate to advanced | Multi-day or multi-week journey with assignments and reviews; around 2 hours/day as one possible cadence | High: curriculum, practice, coaching, reviews, accountability | **SAP SuccessFactors HRIS Modernization Bootcamp:** move from discovery and requirements through solution design, migration considerations, integration dependencies, risk-based QA, cutover, support, and value measurement. Output: a portfolio of connected artifacts and an implementation plan. | Learners committed to systematic capability building | Not a single session or an awareness-only event |
+| **5. Hackathon** | “Can I solve a real challenge and prove it with evidence?” | Challenge-based creation, problem-solving, innovation, and demonstration; applied and outcome-driven | Intensive sprint or recurring mission cycle; for example, six missions across 90 days supported by sprints, bootcamps, workshops, and challenges | Very high: teams, mentors, peer review, solution reviews, demos | **Own the HR Outcome Hackathon:** teams select a fictional HR challenge—compensation-cycle controls, onboarding handoffs, HR data quality, or payroll reconciliation—and build a demonstrable solution. Output: prototype, solution blueprint, test evidence, case study, or working artifact. | Learners ready to turn learning into visible execution | Not teaching-first, passive learning, or discussion without a demonstrable outcome |
+| **6. Challenge (21 days, gamified)** | “How do I build consistency and prove progress every day?” | Habit-building and repeated application through daily tasks, points, streaks, and milestones | 21 days with daily missions, checkpoints, progress visibility, and rewards | Very high: daily prompts, submissions, peer visibility, accountability, recognition | **21 Days of HR Architecture Practice:** daily micro-missions such as identify one HR stakeholder, sketch a process handoff, explain one data ownership rule, write one test scenario, analyse one fictional defect, or reflect on a design trade-off. Output: a 21-day progress log, micro-artifacts, and a final reflection. | Learners who need discipline, repetition, and visible momentum | Not a one-time event, an expert lecture, or a deep implementation bootcamp |
+| **7. Sprint** | “What can I complete quickly in a focused execution window?” | Time-boxed execution to finish one narrowly defined deliverable or milestone | 1–7 days, usually with one clear outcome | High: frequent check-ins, blocker removal, rapid feedback | **SuccessFactors QA Traceability Sprint:** for a defined feature such as a hire or job change, map requirements to risks, test scenarios, expected results, defects, and exit criteria. Output: one completed traceability matrix and review-ready test pack. | Learners who know the basics and need momentum, speed, and completion | Not broad teaching, an entire curriculum, or open-ended exploration |
+| **8. SuperClass** | “What is the highest-level way to think about this domain?” | Premium expert-led strategic teaching, mental models, executive framing, and advanced judgment | 60–180 minutes or a short premium series | Moderate: expert lecture, live examples, Q&A, reflection | **Autonomous HR Strategy SuperClass:** examine the shift from HR systems implementation to an interconnected, AI-enabled HR ecosystem. Explore workforce experience, data governance, architecture ownership, responsible AI, operating models, and value realization. Output: strategic framework, executive notes, architecture principles, and decision questions. | Experienced learners seeking strategic clarity before deciding where to go deep | Not a hands-on practice lab, daily accountability program, or build competition |
+
+### Format selection rule
+
+Choose the format based on the behavior and evidence required—not simply the subject name.
+
+- **Webinar:** create awareness and help learners recognise a problem.
+- **MasterClass:** expose expert reasoning, patterns, and trade-offs.
+- **Workshop:** practise one skill and produce one focused artifact.
+- **Bootcamp:** build several connected capabilities through a sequenced journey.
+- **Hackathon:** solve a challenge and demonstrate a tangible result.
+- **21-day Challenge:** develop consistency through repeated micro-actions.
+- **Sprint:** complete one clearly bounded deliverable in a short time window.
+- **SuperClass:** build strategic understanding and executive-level judgment.
+
+A format is not a curriculum by itself. Combine formats deliberately when the learner needs to move from understanding to practice and then to proof. Do not assess a webinar attendee as if they completed a bootcamp; align the rubric and expected evidence with the format.
+
+### One HR problem, different learning formats
+
+Use the same fictional challenge—**new hires experience delays and inconsistent handoffs during onboarding**—to show how the learning format changes the expected depth and output:
+
+| Format | How the same challenge is taught | Expected evidence |
+|---|---|---|
+| Webinar | Explain common onboarding friction and invite learners to identify likely causes | One problem-framing card |
+| MasterClass | Critique expert approaches to onboarding process, data, system, and ownership design | Decision checklist and design rationale |
+| Workshop | Map the current onboarding process and mark handoffs and failure points | Current-state process map |
+| Bootcamp | Develop the problem statement, future-state process, requirements, solution design, test plan, and operational handover | Connected implementation portfolio |
+| Hackathon | Build and demonstrate a redesigned onboarding workflow or prototype against defined criteria | Prototype, demo, test evidence, and value hypothesis |
+| 21-day Challenge | Complete daily micro-missions on stakeholder needs, process steps, data, exceptions, communication, and measurement | Progress log and a set of small artifacts |
+| Sprint | Complete one bounded output, such as an onboarding handoff matrix or risk-based test pack | One review-ready deliverable |
+| SuperClass | Examine onboarding as an enterprise experience spanning people, process, data, platforms, governance, and value | Strategic principles and executive decision questions |
+
+### How to operationalise the formats
+
+For every HR learning journey, record:
+1. **Format and rationale:** why this format fits the learner's starting point and intended behavior.
+2. **Prerequisites:** what the learner should already know or be able to do.
+3. **Cadence and effort:** session duration, expected independent work, and feedback windows.
+4. **Interaction design:** polls, case discussion, guided practice, team collaboration, mentor review, or reflection.
+5. **Student output:** the specific artifact or demonstrated behavior expected.
+6. **Assessment:** the rubric and acceptance criteria proportionate to the format.
+7. **Transfer:** how the learner will apply the method to a new HR scenario.
+8. **Safety:** use fictional or approved anonymised HR data; never place identifiable employee, payroll, compensation, health, or other sensitive information into public learning tools.
+
+## 5. The Autonomous HR Gameboard — Example
 
 ### Example game: Own the Hire-to-Retire Experience
 
@@ -203,7 +260,7 @@ Treat this as a reusable scenario template, not a one-size-fits-all HR process. 
 
 ---
 
-## 5. Apply the Gameboard Across the 20 SuccessLabs Learning Labs
+## 6. Apply the Gameboard Across the 20 SuccessLabs Learning Labs
 
 Use the established 20-part transformation sequence as the backbone. The gameboard is the learner-experience layer across these labs, not a replacement for the existing lab taxonomy.
 
@@ -236,7 +293,7 @@ Where your 11-sector learning journey catalog is used, the chosen industry shoul
 
 ---
 
-## 6. Worked Example — Compensation and Variable Pay
+## 7. Worked Example — Compensation and Variable Pay
 
 ### Game title: Own the Reward Outcome
 
@@ -261,7 +318,7 @@ Business outcomes such as retention, performance, fairness, or engagement have m
 
 ---
 
-## 7. Webinar / Masterclass Strategy
+## 8. Webinar / Masterclass Strategy
 
 ### Recommended title
 
@@ -292,7 +349,7 @@ Business outcomes such as retention, performance, fairness, or engagement have m
 
 ---
 
-## 8. Suggested Membership and Recognition Design
+## 9. Suggested Membership and Recognition Design
 
 Use the Academy's existing membership meanings rather than introducing a second competing tier system.
 
@@ -317,7 +374,7 @@ Recognition should encourage experimentation and improvement, not unhealthy comp
 
 ---
 
-## 9. Community Code of Honor for Autonomous HR
+## 10. Community Code of Honor for Autonomous HR
 
 1. **Ownership** — Make commitments explicit, surface risks early, and follow through.
 2. **Curiosity** — Ask for evidence and challenge assumptions respectfully.
@@ -336,7 +393,7 @@ A miss is useful data when reported honestly. The objective is better capability
 
 ---
 
-## 10. The 30-Day HR Gameboard Pilot
+## 11. The 30-Day HR Gameboard Pilot
 
 Start with one domain and one learner persona. Do not gamify all 20 labs at once.
 
@@ -372,7 +429,7 @@ Start with one domain and one learner persona. Do not gamify all 20 labs at once
 
 ---
 
-## 11. Measures That Matter
+## 12. Measures That Matter
 
 Measure learner progress and artifact quality first; treat business impact as a later, separate evaluation.
 
@@ -392,7 +449,7 @@ Do not optimise the gameboard for logins, points, streaks, video minutes, or bad
 
 ---
 
-## 12. Design Rules for Responsible HR Gamification
+## 13. Design Rules for Responsible HR Gamification
 
 - **Use fictional or approved anonymised data.** Never ask learners to upload identifiable employee, salary, payroll, health, or other sensitive HR data into public tools.
 - **Separate sandbox work from production.** Learning artifacts are not automatically production-ready.
@@ -405,7 +462,7 @@ Do not optimise the gameboard for logins, points, streaks, video minutes, or bad
 
 ---
 
-## 13. Reusable HR Gameboard Canvas
+## 14. Reusable HR Gameboard Canvas
 
 Complete this before building a new course or mission.
 
@@ -424,7 +481,7 @@ Complete this before building a new course or mission.
 
 ---
 
-## 14. Recommended Architecture for Autonomous HR Curriculum Design
+## 15. Recommended Architecture for Autonomous HR Curriculum Design
 
 Treat the curriculum as a connected learning ecosystem with six linked records or entities:
 
@@ -445,7 +502,7 @@ This makes the curriculum more adaptive without making it arbitrary. The learnin
 
 ---
 
-## 15. Recommended Next Steps
+## 16. Recommended Next Steps
 
 1. Pilot one gameboard in a high-value HR domain—Employee Central, Compensation and Variable Pay, or HRIS Quality Assurance are suitable candidates.
 2. Build 4–6 missions with concrete artifacts and a transparent scoring rubric.
