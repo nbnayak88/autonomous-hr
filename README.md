@@ -54,50 +54,23 @@ The master repository owns the common layer across the 12 streams:
 autonomous-hr/
 ├── README.md
 ├── architecture/
-│   ├── autonomous-hr-reference-architecture.md
-│   ├── hr-capability-model.md
-│   ├── hr-value-streams.md
-│   ├── apqc-alignment.md
-│   ├── architecture-principles.md
-│   └── diagrams/
 ├── streams/
-│   ├── AWF1-autonomous-workforce-foundations.md
-│   ├── ATA2-autonomous-talent-acquisition.md
-│   ├── APH3-high-performance-organizations.md
-│   ├── AGL4-growth-leadership.md
-│   ├── ARP5-rewards-performance-excellence.md
-│   ├── ALM6-continuous-learning-mobility.md
-│   ├── APE7-autonomous-payroll-enterprises.md
-│   ├── AWT8-workforce-time-operations.md
-│   ├── AWI9-workforce-intelligence.md
-│   ├── ADX0-digital-employee-experience.md
-│   ├── AAI1-ai-powered-hr-enterprises.md
-│   └── AIG2-connected-hr-enterprises.md
 ├── cross-stream/
-│   ├── data-architecture/
-│   ├── application-architecture/
-│   ├── integration-architecture/
-│   ├── ai-architecture/
-│   ├── security-governance/
-│   ├── experience-architecture/
-│   └── analytics-intelligence/
 ├── ecosystem/
-│   ├── sap/
-│   ├── workday/
-│   ├── microsoft/
-│   ├── adp/
-│   ├── ukg/
-│   └── ecosystem-reference.md
 ├── reference-architectures/
 ├── case-studies/
+│   └── OmniVerse-Energy-Business-Transformation-Assessment.md
 ├── standards/
 ├── governance/
 ├── learning/
 └── assets/
-    ├── templates/
-    ├── checklists/
-    └── diagrams/
 ```
+
+## Case Studies
+
+| Case Study | Purpose |
+|---|---|
+| [OmniVerse Energy Ltd. — Business Transformation Assessment](case-studies/OmniVerse-Energy-Business-Transformation-Assessment.md) | Enterprise-level assessment of strategy-to-value alignment, operating model, financial case, roadmap, governance, KPIs and transformation portfolio. HR and Rewards & Performance are reserved for subsequent deep dives. |
 
 ## Architecture Flow
 
@@ -176,7 +149,6 @@ The repository will evolve incrementally as the 12 streams, cross-stream archite
 
 **SuccessLabs Academy**  
 *Architecting Experiences for a Better World*
-
 
 ## Learning & Interview Architecture
 
